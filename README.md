@@ -52,16 +52,17 @@ Model: ML Classification Algorithms (Logistic Regression, Random Forest etc..)
  Out of these models Random Forest gave the best Accuracy so we select random forest.
 
 # Installation and Dependency
-1.Clone the repository
+# 1.Clone the repository
 
+git clone https://github.com/Vivek3330/AIML-PROJECT
 
-2.Install Dependencies
+# 2.Install Dependencies
 
 pip install -r requirements.txt
 
-3.Run the model
+# 3.Run the model
 
 python ml_model.py
 
-4.Start the server
+# 4.Start the server
 python app.py

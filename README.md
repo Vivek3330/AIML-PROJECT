@@ -1,43 +1,67 @@
 # AIML-PROJECT
-# Step 1: Data Cleaning
 
-Handled missing values (imputation / removal).
+# Credit Score Classification Model
+This project implements a Machine Learning classification model that predicts an individual's Credit Score category — Poor, Fair, Good, or Excellent — based on their financial and demographic features.
 
-Processed categorical and numerical features.
+The goal is to automate credit risk assessment and help financial institutions make better loan approval decisions.
 
-Normalized and standardized data where required.
+# Features
+Preprocessing of financial & demographic data
 
-# Split dataset into training and testing sets.
+Training a classification model (e.g., Logistic Regression, Random Forest, XGBoost)
 
-#Step 2: Model Training
+Prediction of credit score categories:
 
-We trained and evaluated multiple machine learning models to compare their performance:
+Poor
 
-#  Models Used
+Fair
 
-# Logistic Regression – for baseline binary classification.
+Standard
 
-# Neural Networks (MLP/ANN) – for capturing complex nonlinear relationships.
+Performance evaluation with accuracy, precision, recall, and F1-sco
 
-# Decision Trees – simple interpretable tree-based model.
+# Tech Stack
+Language: Python,HTML,CSS,Javascript,Flask(Back-end)
 
-# Random Forest
+Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn
 
-# Gradient Boosting (GB) 
+Model: ML Classification Algorithms (Logistic Regression, Random Forest etc..)
+#  Models Used for training 
 
-# K-Nearest Neighbors (KNN)
+ Logistic Regression
 
-# Perceptron 
+ Neural Networks (MLP/ANN)
 
-# Naive Bayes
+ Decision Trees 
 
-# Support Vector Machine (SVM)
+ Random Forest
 
-# Categorical Boosting (CatBoost) 
+ Gradient Boosting (GB) 
 
-# Step 3: Model Evaluation
+ K-Nearest Neighbors (KNN)
 
-Compared models on accuracy, precision, recall, F1-score, ROC-AUC.
+ Perceptron 
 
-# Conclusion
-Random Forest Gave the Best Results.
+ Naive Bayes
+
+ Support Vector Machine (SVM)
+
+ Categorical Boosting (CatBoost) 
+ 
+# Best Model
+ Out of these models Random Forest gave the best Accuracy so we select random forest.
+
+# Installation and Dependency
+1.Clone the repository
+
+
+2.Install Dependencies
+
+pip install -r requirements.txt
+
+3.Run the model
+
+python ml_model.py
+
+4.Start the server
+python app.py
